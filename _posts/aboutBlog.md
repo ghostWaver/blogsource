@@ -18,6 +18,7 @@ title: 关于博客
 # [博客链接:http://ghostWaver.github.io](http://ghostWaver.github.io)
    
 ## 每次发布博客:在博客根目录下git bash中执行 hexo generate -d    简写为  hexo g -d
-## 每次发布完博客，备份(source目录下)博客源文件，使用git命令行, git status 查看哪些文件需要上传，git add . 将需要上传的文件全部添加， git commit "这里添加注释",提交全部文件。
+## 每次发布完博客，备份(source目录下)博客源文件，使用git命令行, git status 查看哪些文件需要上传，git add . 将需要上传的文件全部添加， git commit -m"这里添加注释",提交全部文件。
+   以上只是完成了本地git库的更新，要提交到github哟。先执行git pull 再执行git push
  > 任何问题请访问hexo官网(有简体中文的哟)
  
